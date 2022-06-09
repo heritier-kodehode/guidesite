@@ -1,0 +1,124 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+}
+
+#hero{
+   background: url(https://www.resq.no/Images/For%20web/haugesund.jpg?w=640&h=320&bg=ffffff);
+   background-size: cover;
+   height: 343px;
+   color: #F1FAEE;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+   margin: 0;
+}
+
+.hero-title{
+    background: #1D3557;
+    font-size: 32px;
+    border-radius: 6px; 
+    padding: 5px 8px;
+    
+}
+
+.hero-info{
+    background: #457B9D;
+    width: 355px;
+    font-size: 18.72px;
+    border-radius: 6px; 
+    padding: 5px 8px;
+}
+
+#activities{
+    background: #F1FAEE;
+    height: 343px;
+    padding-bottom: 80px;
+
+}
+
+.activities-title{
+    margin: 0;
+    padding: 30px;
+}
+
+.activities-topics{
+    display: flex;
+   justify-content: center;
+   
+}
+.activities-topic{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.activities-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activities-info{
+    width: 198px;
+    margin-top: 0;
+}
+
+.guide-section{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    margin: 50px auto;
+    background: #A8DADC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid #1D3557;
+}
+
+.guide-text{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center
+}
+.guide-title{
+    
+}
+
+.guide-info{
+    width: 189px;
+    margin: 0
+}
+
+.guide-name{
+    
+}
+
+#guide-img{
+    align-self: stretch;
+    width: 180px;
+    border-radius: 5px;
+}
